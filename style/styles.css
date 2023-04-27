@@ -1,0 +1,218 @@
+/* null */
+ *{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	 outline: none;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	line-height: 1;
+	text-rendering: optimizeLegibility;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+input,
+button,
+textarea {
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: transparent;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header */
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.container{
+    margin: 0 auto;
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header__text {
+    color: white;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header__logo {
+    color: white;
+
+    text-transform: uppercase;
+}
+.header__btn {
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 100;
+    font-style: normal;
+    display: block;
+    border: 1px solid white;
+    padding: 6px 32px;
+    padding-bottom: 7px;
+   background-color: c;
+    cursor: pointer;
+}
+.icon-menu{
+    width: 30px;
+    height: 18px;
+    border: 0px;
+    cursor: pointer;
+    background-color: inherit;
+}
+/* hero */
+.hero{
+    padding-top: 550px;
+    margin-left: 152px;
+    color: white;
+}
+.hero__title{
+    font-size: 64px;
+    line-height: 77px;
+    font-weight: 300;
+    font-style: normal;
+}
+.hero__text{
+    padding-top: 42px;
+}
+/* video */
+#myVideo {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+main{
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+}
+.form-feedback {
+}
+.container {
+}
+.form-feedback__wrapper {
+}
+.form-feedback__form {
+}
+.form {
+}
+.img {
+}
+.form__cont {
+}
+.form__lable {
+}
+.form__input {
+}
+.input__wrapper {
+}
+.input__block {
+}
+.input__wraper {
+}
+.select {
+}
+.form-feedback__btn {
+}
